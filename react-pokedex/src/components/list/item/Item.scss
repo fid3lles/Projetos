@@ -1,0 +1,82 @@
+@import '../../variables.scss';
+
+.item-card {
+    background-color: $grass-element-color;
+    width: 210px;
+    height: 130px;
+    font-family: $roboto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-image: url('../../../assets/img/pokeball.svg');
+    background-repeat: no-repeat;
+    background-position-x: 111px;
+    background-position-y: 36px;
+    background-size: 113px;
+    background-blend-mode: multiply;
+
+    &__status {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-height: 50px;
+
+        &__id {
+            color: $item-id-color;
+            font-weight: 900;
+            font-size: 18pt;
+            text-align: end;
+            margin: 10px 10px 0 0;
+        }
+    
+        &__title {
+            color: white;
+            font-weight: 700;
+            font-size: 18pt;
+            margin: 27px 0px 0 15px;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-grow: 1;
+
+        &__types {
+            margin: 0;
+            padding: 7px 0 0 20px;
+
+            li {
+                font-size: 10pt;
+                font-weight: bold;
+                color: white;
+                background-color: $type-highlight;
+                border-radius: 10px;
+                list-style-type: none;
+                line-height: 1.3;
+                padding: 0 10px 0 10px;
+            }
+
+            li:first-child {
+                margin-bottom: 5px;
+            }
+        }
+
+        &__splashart-container {
+            width: 100%;
+            max-height: 80px;
+
+            img {
+                position: relative;
+                left: 40px;
+                bottom: 10px;
+                height: 100%;
+            }
+        }
+    }
+
+    &:last-child {
+        margin-bottom: 50px;
+    }
+
+}

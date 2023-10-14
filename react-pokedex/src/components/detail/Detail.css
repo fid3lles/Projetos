@@ -1,0 +1,12 @@
+/* variables */
+/* light theme variables */
+/* dark theme variables 
+$dark-background: #F6F8FC;
+$dark-interfaces: #FFFFFF; */
+.detail-container {
+  background-color: #FFFFFF;
+  height: 80vh;
+  border-radius: 30px;
+  width: 25vw;
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.15);
+}/*# sourceMappingURL=Detail.css.map */

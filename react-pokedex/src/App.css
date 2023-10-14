@@ -1,0 +1,19 @@
+/* variables */
+/* light theme variables */
+/* dark theme variables 
+$dark-background: #F6F8FC;
+$dark-interfaces: #FFFFFF; */
+body {
+  margin: 0;
+}
+
+.pokedex-container {
+  background-color: #F6F8FC;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}/*# sourceMappingURL=App.css.map */

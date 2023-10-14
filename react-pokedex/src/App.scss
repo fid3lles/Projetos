@@ -1,0 +1,15 @@
+@import './components/variables.scss';
+
+body {
+  margin: 0;
+}
+
+.pokedex-container {
+  background-color: $light-background;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 60px;
+}

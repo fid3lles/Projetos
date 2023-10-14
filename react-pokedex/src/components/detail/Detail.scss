@@ -1,0 +1,9 @@
+@import '../variables.scss';
+
+.detail-container {
+    background-color: $light-interfaces;
+    height: 80vh;
+    border-radius: 30px;
+    width: 25vw;
+    box-shadow: $box-shadow-interfaces;
+}
